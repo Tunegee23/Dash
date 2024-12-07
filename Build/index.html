@@ -3,190 +3,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-    <div>
-        <main class="header">
-            <div class="Header">
-                <h2>Social Media Dashboard</h2>
-                <p>Total Follower: 23,004</p>
+        <main class=" p-8 flex justify-between text-[white]  ">
+            <div class="">
+                <h2 class="font-[900] text-[18px]">Social Media Dashboard</h2>
+                <p class="font-[500] text-[16px]">Total Follower: 23,004</p>
             </div>
-            <div class="line"></div>
-            <div class="header1">
+            <!-- <div class="w-[245px] sm:hidden mt-[10px] h-[1px] border-[1px] border-[solid] text-[rgb(175, 180, 204)]  "></div> -->
+            <div class="mt-[10px] hidden sm:block" >
                 <p>Dark Mode</p>
-                 <img src="images/switch-on (1).png" alt="" width="50px" height="50px">
+                <img src="images/switch-on (1).png" alt="" width="50px" height="50px">
             </div>
         </main>
-        <div class="headercontent">
-            <main class="Box1">
-                <div class="uppericon1">
-                    <img  src="images/icon-facebook.svg" alt="" width="15px" height="12px">
-                    <p>@nathanf</p>
-                </div>
-
-                <div class="content1">
-                    <h1>1987</h1>
-                    <p>FOLLOWERS</p>
-                </div>
-
-                <div class="lowericon1">
-                     <img src="images/icon-up.svg" alt="">
-                    <p>12 Today</p>
-                </div>
-             </main>
-
-            <main class="Box2">
-                <div class="uppericon2">
-                    <img  src="images/icon-twitter.svg" alt="" width="15px" height="12px">
-                    <p>@nathanf</p>
-                 </div>
-
-                 <main class="content2"> 
-                    <h1>1044</h1>
-                    <p>FOLLOWERS</p>
-                </main>
-            
-                    <div class="lowericon2" >
-                        <img src="images/icon-up.svg" alt="">
-                        <p>99 Today</p>
+        <div class="flex items-center  justify-center">
+            <div class=" sm:flex-wrap sm:gap-[3rem]  sm:flex :items-center justify-center ">
+                <main class="w-[200px] h-[200px] bg-[#252c43]  rounded-[5px] border-t-[5px] border-t-blue-600 border-[#228ce9] text-[white] text-center">
+                    <div class="flex mt-[2rem] items-center justify-center gap-[10px]">
+                        <img  src="images/icon-facebook.svg" alt="" width="15px" height="12px">
+                        <p class="text-[16px]">@nathanf</p>
                     </div>
-            </main>
+                    <div class="mt-[4px]">
+                        <h1 class="text-[30px] font-[900]">1987</h1>
+                        <p class="text-[16px] font-[100]">FOLLOWERS</p>
+                    </div>
+                    <div class="flex items-center  justify-center">
+                        <div class=" flex mt-[4px] items-center  justify-center gap-[10px]">
+                            <img src="images/icon-up.svg"  alt="">
+                            <p class="text-[#008200]">12 Today</p>
+                        </div>
+                    </div>
+                </main>
 
-                <main class="Box3">
-                    <div class="uppericon3">
+                <main class="w-[200px] h-[200px] bg-[#252c43] mt-[1rem] sm:mt-[0px]  rounded-[5px] border-t-[5px] border-t-blue-600 border-[#228ce9] text-[white] text-center">
+                    <div class="flex mt-[2rem] items-center justify-center gap-[10px]">
+                        <img  src="images/icon-twitter.svg" alt="" width="15px" height="12px">
+                        <p class="">@nathanf</p>
+                    </div>
+    
+                    <main class="mt-[4px]">
+                        <h1 class="text-[30px] font-[900]">1044</h1>
+                        <p class="text-[16px] font-[100]">FOLLOWERS</p>
+                    </main>
+                
+                    <div class="flex mt-[4px] items-center  justify-center gap-[10px]" >
+                        <img src="images/icon-up.svg" alt="">
+                        <p class="text-[#008200]">99 Today</p>
+                    </div>
+    
+                </main>  
+
+                <main class="w-[200px] h-[200px] bg-[#252c43] mt-[1rem] sm:mt-[0px] rounded-[5px] border-t-[5px] border-t-red-200 border-[#228ce9] text-[white] text-center">
+                    <div class="flex mt-[2rem] items-center justify-center gap-[10px]">
                         <img src="images/icon-instagram.svg" alt="" width="15px" height="12px">
                         <p>@nathanf</p>
                     </div>
-                    <main class="content3">
-                        <h1>11K</h1>
-                        <p>FOLLOWERS</p>
+
+                    <main class="mt-[4px]">
+                        <h1 class="text-[30px] font-[900]">11K</h1>
+                        <p class="text-[16px] font-[100]">FOLLOWERS</p>
                     </main>
                 
-                    <div class="lowericon3">
+                    <div class="flex mt-[4px] items-center  justify-center gap-[10px]">
                         <img src="images/icon-up.svg" alt="">
-                        <p>1099 Today</p>
+                        <p class="text-[#008200]">1099 Today</p>
                     </div>
                 </main>
 
-                <main class="Box4">
-                    <div class="uppericon2">
+                <main class="w-[200px] h-[200px] bg-[#252c43]  mt-[1rem] sm:mt-[0px]  rounded-[5px] border-t-[5px] border-t-red-500 border-[#228ce9] text-[white] text-center">
+                    <div class="flex mt-[2rem] items-center justify-center gap-[10px]">
                         <img src="images/icon-youtube.svg" alt="" width="15px" height="12px">
                         <p>@nathanf</p>
                     </div>
-                    <main class="content4">
-                        <h1>8237</h1>
-                        <p>FOLLOWERS</p>
+                    <main class="mt-[4px]">
+                        <h1 class="text-[30px] font-[900]">8237</h1>
+                        <p class="text-[16px] font-[100]">FOLLOWERS</p>
                     </main>
-            
-                    <div class="lowericon4">
+                    <div class="flex mt-[4px] items-center  justify-center gap-[10px]">
                         <img src="images/icon-down.svg" alt="">
                         <p>144 Today</p>
                     </div>
-             </main>
-        </div>
-
-        <div class="middle">
-            <main class="middlecontent">Overview - Today</main>
-            <main class="boxer">
-                <div class="upperBox">
-                    <div class="innerbox1">
-                        <h1>page view</h1>
-                         <img src="images/icon-facebook.svg" alt="" width="15px" height="12px">
-                    </div>
-                    <div class="innerbox2">
-                        <h1>87</h1>
-                    <img src="images/icon-up.svg" alt="" width="15px" height="12px"><p>3%</p>
-                    </div>
-                </div>
-          
-                <div class="upperBox">
-                    <div class="innerbox3">
-                        <h1>Likes</h1>
-                         <img src="images/icon-facebook.svg" alt="" width="15px" height="12px">
-                    </div>
-                    <div class="innerbox4">
-                        <h1>52</h1>
-                    <img src="images/icon-down.svg" alt="" width="7px" height="3px"><p>2%</p>
-                    </div>
-                </div>
-
-                <div class="upperBox">
-                    <div class="innerbox5">
-                        <h1>Likes</h1>
-                         <img src="images/icon-instagram.svg" alt="" width="15px" height="12px">
-                    </div>
-                    <div class="innerbox6">
-                        <h1>5462</h1>
-                        <img src="images/icon-up.svg" alt="" width="7px" height="3px"><p>2257%</p>
-                    </div>
-                </div>
-
-                <div class="upperBox">
-                    <div class="innerbox7">
-                        <h1>profile views</h1>
-                         <img src="images/icon-instagram.svg" alt="" width="15px" height="12px">
-                    </div>
-                    <div class="innerbox8">
-                        <h1>52k</h1>
-                    <img src="images/icon-up.svg" alt="" width="7px" height="3px"><p>2%</p>
-                    </div>
-                </div> 
-            </main>
-                <main class="Boxer">
-                    <div class="lowerBox">
-                        <div class="Innerbox1">
-                            <h1>Retweets</h1>
-                             <img src="images/icon-twitter.svg" alt="" width="15px" height="12px">
-                        </div>
-                        <div class="Innerbox2">
-                            <h1>117</h1>
-                        <img src="images/icon-up.svg" alt="" width="15px" height="12px"><p>303%</p>
-                        </div>
-                    </div>
-
-                    <div class="lowerBox">
-                        <div class="Innerbox3">
-                            <h1>Likes</h1>
-                             <img src="images/icon-twitter.svg" alt="" width="15px" height="12px">
-                        </div>
-                        <div class="Innerbox4">
-                            <h1>507</h1>
-                        <img src="images/icon-up.svg" alt="" width="15px" height="12px"><p>553%</p>
-                        </div>
-                    </div>
-
-                    <div class="lowerBox">
-                        <div class="Innerbox5">
-                            <h1>Likes</h1>
-                             <img src="images/icon-youtube.svg" alt="" width="15px" height="12px">
-                        </div>
-                        <div class="Innerbox6">
-                            <h1>107</h1>
-                        <img src="images/icon-down.svg" alt="" width="15px" height="12px"><p>10%</p>
-                        </div>
-                    </div>
-
-                    <div class="lowerBox">
-                        <div class="Innerbox7">
-                            <h1>Total Views</h1>
-                             <img src="images/icon-youtube.svg" alt="" width="15px" height="12px">
-                        </div>
-                        <div class="Innerbox8">
-                            <h1>1407</h1>
-                        <img src="images/icon-down.svg" alt="" width="15px" height="12px"><p>12%</p>
-                        </div>
-                    </div>
                 </main>
-            
-                <div></div>
-                <div></div>
-                <div></div>
+            </div>
+        </div>
 
         </div>
 
-            
+        <div class="">
+            <h1 class="p-8 md:flex text-[white] ">Overview - Today</h1>
+            <main class=" flex items-center justify-center">
+                <div class="sm:flex-wrap sm:gap-[3rem]  sm:flex :items-center justify-center  ">
+                    <div class="w-[190px] h-[100px]  bg-[#252c43]">
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">page view</h1>
+                            <img src="images/icon-facebook.svg" alt="">
+                        </div>
+        
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">87</h1>
+                            <div class="flex mt-[10px] gap-[3px]">
+                                <img src="images/icon-up.svg" class="w-[8px] mt-[8px] h-[8px]" alt="">
+                                <p class="text-[#008200] text-[14px]">3%</p>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px] bg-[#252c43]">
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100] ">Likes</h1>
+                            <img src="images/icon-facebook.svg" alt="" >2
+                        </div>
+    
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">52</h1>
+                            <div class="flex mt-[10px] gap-[3px]">
+                                <img src="images/icon-down.svg" class="w-[8px] mt-[8px] h-[8px]" alt="">
+                                <p class="text-[#008200] text-[14px]">2%</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+
+                    
+                    
+
+                   <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px]  bg-[#252c43]">
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">Likes</h1>
+                            <img src="images/icon-instagram.svg" alt="" >
+                        </div>
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">5462</h1>
+                            <div class="flex mt-[10px] gap-[3px]" >
+                                <img src="images/icon-up.svg"  class="w-[8px] mt-[8px] h-[8px]" alt="" >
+                                <p class="text-[#008200] text-[14px]">2257%</p>
+                            </div>
+                            
+                        </div>
+                    </div> 
+
+                    <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px] bg-[#252c43]">
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">profile views</h1>
+                             <img src="images/icon-instagram.svg" alt="" >
+                        </div>
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">52k</h1>
+                            <div class="flex mt-[10px] gap-[3px]">
+                                <img src="images/icon-up.svg" class="w-[8px] mt-[8px] h-[8px]" alt="">
+                                <p class="text-[#008200] text-[14px]">2%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px]  bg-[#252c43]">
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">profile views</h1>
+                             <img src="images/icon-instagram.svg"  alt="" >
+                        </div>
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">52k</h1>
+                            <div class="flex mt-[10px] gap-[3px]">
+                                <img src="images/icon-up.svg" class="w-[8px] mt-[8px] h-[8px]" alt="">
+                                <p class="text-[#008200] text-[14px]">2%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+            </main> 
+           
+
+            <main class="flex items-center justify-center">
+                <div class="mt-[3rem] sm:flex-wrap sm:gap-[3rem]  sm:flex :items-center justify-center">
+
+                    <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px]  bg-[#252c43]">
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">Retweets</h1>
+                            <img src="images/icon-twitter.svg" alt="" >
+                        </div>
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">117</h1>
+                            <div class="flex mt-[10px] gap-[3px]">
+                                <img src="images/icon-up.svg" class="w-[8px] mt-[8px] h-[8px]"  alt="" >
+                                <p class="text-[#008200] text-[14px]">303%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px]  bg-[#252c43]">
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">Likes</h1>
+                            <img src="images/icon-twitter.svg" alt="" >
+                        </div>
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">507</h1>
+                            <div class="flex mt-[10px] gap-[3px]">
+                                <img src="images/icon-up.svg" class="w-[8px] mt-[8px] h-[8px]" alt="">
+                                <p class="text-[#008200] text-[14px]">553%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px]  bg-[#252c43]">
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">Likes</h1>
+                             <img src="images/icon-youtube.svg" alt="">
+                        </div>
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">107</h1>
+                            <div class="flex mt-[10px] gap-[3px]">
+                                <img src="images/icon-down.svg" class="w-[8px] mt-[8px] h-[8px]" alt="" >
+                                <p class="text-[#008200] text-[14px]">10%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="w-[190px] h-[100px] mt-[1rem] sm:mt-[0px] bg-[#252c43]">
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] text-[16px] font-[100]">Total Views</h1>
+                            <img src="images/icon-youtube.svg" alt="" >
+                        </div>
+
+                        <div class="flex p-3 justify-between">
+                            <h1 class="text-[white] font-[700] text-[25px]">1407</h1>
+                            <div class="flex mt-[10px] gap-[3px">
+                                <img src="images/icon-down.svg" class="w-[8px] mt-[8px] h-[8px]" alt="" >
+                                <p class="text-[#008200] text-[14px]">12%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+                      
+            </main>
+
+        </div> 
     </div>
 </body>
 </html>
